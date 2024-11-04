@@ -1,0 +1,20 @@
+.color-selector {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-option {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+.color-option.selected {
+    transform: scale(0.7);
+    box-shadow: 0 0 0 4px #fff, 0 0 0 6px #000;
+}

@@ -1,0 +1,29 @@
+/* searchBar.module.css */
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.searchInput {
+    width: 0;
+    opacity: 0;
+    transition: width 0.3s ease, opacity 0.3s ease;
+    outline: none;
+}
+
+/* Expanded state */
+.searchInput.expand {
+    width: 200px;
+    /* Adjust as needed */
+    opacity: 1;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.searchBtn {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}

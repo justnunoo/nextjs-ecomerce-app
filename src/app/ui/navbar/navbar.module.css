@@ -1,0 +1,32 @@
+.searchContainer {
+    position: relative;
+    width: 100px;
+    transition: width 0.4s ease;
+}
+
+.searchBtn {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    margin-right: 20px;
+    outline: none;
+}
+
+.searchInput {
+    width: 100%;
+    height: 40px;
+    padding: 0 0 0 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    outline: none;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.searchBtn.clicked {
+    background-color: rgb(37, 33, 33);
+}

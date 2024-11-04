@@ -1,0 +1,66 @@
+.shoeCard {
+    position: relative;
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.shoeCard img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shoeImage {
+    border: 1px solid rgb(216, 212, 212);
+}
+
+.shoeCard img:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+    box-shadow: -10px 10px 5px gray;
+}
+
+.bookmarkIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.details {
+    padding: 20px;
+    margin: 0px;
+}
+
+.name {
+    font-size: 10px;
+}
+
+.details h2,
+.details p,
+.details button {
+    /* Ensure all elements are scoped under .details */
+    margin: 10px 0 10px 0;
+}
+
+
+.details button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgba(0, 50, 100, 0.8);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.details button:hover {
+    background-color: rgba(0, 50, 100, 1);
+    transform: scale(1.1);
+}

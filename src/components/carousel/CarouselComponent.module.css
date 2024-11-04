@@ -1,0 +1,27 @@
+.carouselImage {
+    width: 100%; /* Make sure the image fills the width */
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+    height: 300px; /* Base height for smaller screens */
+  }
+  
+  /* Increase height on medium screens */
+  @media (min-width: 768px) {
+    .carouselImage {
+      height: 400px; /* Increase height for medium screens */
+    }
+  }
+  
+  /* Further increase height on large screens */
+  @media (min-width: 992px) {
+    .carouselImage {
+      height: 500px; /* Increase height for large screens */
+    }
+  }
+  
+  /* Maximum height for very large screens */
+  @media (min-width: 1200px) {
+    .carouselImage {
+      height: 600px; /* Max height for extra large screens */
+    }
+  }
+  

@@ -1,0 +1,48 @@
+.colorSelector {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colorOption {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+.colorOption.selected {
+    box-shadow: 0 0 0 4px #fff, 0 0 0 6px #000;
+}
+
+.sizeSelector {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 450px;
+    /* margin: 20px auto; */
+    justify-content: center;
+}
+
+.sizeOption {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.sizeOption:hover {
+    border-color: #000;
+}
+
+.sizeOption.selected {
+    transform: scale(0.8);
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}

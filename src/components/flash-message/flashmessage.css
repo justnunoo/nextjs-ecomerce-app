@@ -1,0 +1,26 @@
+.flash-message {
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+    right: 10%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 300px;
+    z-index: 1000;
+    opacity: 0.95;
+}
+
+.flash-message.success {
+    background-color: #3af789;
+    /* Bootstrap success color (green) */
+}
+
+.flash-message.danger {
+    background-color: #dc3545;
+    /* Bootstrap danger color (red) */
+}

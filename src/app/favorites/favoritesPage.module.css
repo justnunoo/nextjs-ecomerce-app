@@ -1,0 +1,33 @@
+.favoritesContainer {
+    padding: 2rem;
+}
+
+.favoritesGrid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.favoriteCard {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.productImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.viewProductLink {
+    display: block;
+    margin-top: 0.5rem;
+    color: #0070f3;
+    text-decoration: none;
+}
+
+.viewProductLink:hover {
+    text-decoration: underline;
+}

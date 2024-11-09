@@ -15,7 +15,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
-    "@prisma/client": "^5.20.0",
+    "@prisma/client": "^5.22.0",
     "@sendgrid/mail": "^8.1.4",
     "axios": "^1.7.7",
     "bcryptjs": "^2.4.3",
